@@ -1,0 +1,113 @@
+body {
+  border: 2px solid rgb(185, 230, 176);
+  padding: 30px;
+  background-image: url(https://images-cdn.welcomesoftware.com/Zz0zZTliMjQ4MzhlNGExMWViYmJiMjFiZTI2ZWNmN2MzZA==);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #df2ce2; /* Button background color */
+  color: #fff; /* Button text color */
+  text-decoration: none; /* Remove underlines from the link */
+  border: none; /* Remove button borders */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+.button-link:hover {
+  text-decoration: underline;
+  color: red;
+  background-color: yellow;
+  text-decoration: underline;
+}
+
+.gambar:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.gambar {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #df2ce2; /* Button background color */
+  color: #fff; /* Button text color */
+  text-decoration: none; /* Remove underlines from the link */
+  border: none; /* Remove button borders */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+.gambar:hover {
+  text-decoration: underline;
+  color: red;
+  background-color: yellow;
+  text-decoration: underline;
+}
+
+/* Style the entire table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Style table headers */
+th {
+  background-color: #6113df33;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style table data cells */
+td {
+  border: 1px solid #eac1c1;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style alternate rows (optional) */
+tr:nth-child(even) {
+  background-color: #f3acac;
+}
+tr:nth-child(odd) {
+  background-color: #eac1c1;
+}
+tr :hover {
+  background-color: aquamarine;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+#textInput{
+  border: none;
+  padding: 10px 200px;
+  border-radius: 5px;
+  border-right: #eac1c1;
+}
